@@ -1,56 +1,91 @@
 <!DOCTYPE html>
+<html lang="en"></html>
+<head>
 
-<head> 
-<html lang="en">
 <link rel="stylesheet" type="text/css" href="myWebsiteStyleSheet.css" media="screen" />
 <title> Billy's Vegetarian Food Blog </title>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
 
-<!--The Navigation Bar-->
-<ul> 
-    <p> <b> Blog Directory <b>  </p>     
-     <li><a href="default.asp">Home</a></li>
-     <li><a href="recipes.asp">Recipes</a></li>
-     <li><a href="cookingvideo.asp">Tutorials</a></li>
-     <li><a href="ingredientslist.asp">Ingredients</a></li>
-  </ul>
-    
-    <meta name ="viewport" content="width-device-width">
-        
+<style>
+  *  {
+        box-sizing: border-box;
+    }
+
+@media (max-width:1080px) {
+  nav
+  width= 100%;
+  height= auto; 
+}
+
+</style>  
 </head>
 
- <!--The Containers Bar-->
+
+<!--The Navigation Bar--> 
+<!---TODO: CheckSyntaxInImgSrcPic-->
+
 <body>
-    <div class = "textcontainer" > 
-       
-        <h1> Our Latest Home Baked Goods! </h1>
+
+     <!---Mint Logo Nav Bar-->
+    <header>
+        <h2> <b> myFoodBlog </b> </h2>
+        background-color: C2DCD3;
+   
+    </header>
+
+    <main> 
+
+        <div class = recipepagetemplate >
+            width= 1920px;
+            height= 1080px;
+            background-color:white;
+
+           <!---LeftSideOfPage Picture-->
+            <img src="https://images.unsplash.com/photo-1667837424623-89e27216a75e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" 
+            alt="An outside table set with teas, pots and delicious treats." title="Image has a table set outside." width=907px  height=850px> </img>
+
+        <!---RightSidePhoto-->
+        <div class= textcontainer >
+            <h1> Dish Title </h1>
+            <p1> (P1) Dish Blurb- Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua.
+                Et molestie ac feugiat sed lectus vestibulum. 
+                Scelerisque mauris pellentesque pulvinar pellentesque
+                habitant morbi tristique senectus. Eget mauris pharetra et 
+                ultrices neque ornare. Egestas erat imperdiet sed euismod. 
+                Non diam phasellus vestibulum lorem sed. Diam ut venenatis tellus in metus.
+                Laoreet sit amet cursus sit amet dictum sit amet. Turpis massa sed 
+                elementum tempus egestas. Ultrices dui sapien eget mi proin. Dignissim 
+                suspendisse in est ante.</p1>
+            <h4> Ingredients </h4>
+            <ul> 
+                <li>Cheese</li> <li>Butter</li> <li>Bread</li> 
+                <li>Oregano </li>
+            </ul>
+
+        </div>
+           
+          
+    </main>
     
-         <h3> The Holiday Market Opens with Our Holiday Cookies! </h3> 
-        <p> All yummy baked breads, pastries, puffs, pie crusts and 
-            our seasonally loved donuts. Saturday at 9am EST at The Highland Farmer's Market. </p>
-    </div>
+         <!---RecipeColumns-->
+        <div class=recipedisplaycolumns>
+            
+         <!--Individual Squares -->
+            <div style="background-color:rgb(86, 221, 187);color:white;padding:1.5vh;">
+            
 
-
-    <div class= "imagecontainer" > 
-        <img src="https://images.unsplash.com/photo-1668000819543-ec8a570939ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" title="image from Unsplash.com"> <img/>
-    </div>
+            </div>
+             
+        </div>
 
     
-    <div class = "textcontainer" > 
-        <h2> Fan Favorite Pop Up Shop Items! </h2>
-        <p> Last Holiday Market our Pumpkin Bread Loaves were taken by storm!  </p>  
-        <br> 
-        <h4> Reviews of Previously Tried Recipes </h4>
-        /**/<div>
-        <p> "I loved the Apple Pie no dairy recipe, my sister has an allergy but misses her favorite pie. I found this recipe pretty easy to do and the seasonings were right on point! " - Sarah Jackson <br> 
-        "I tried my hand at the Creme Brulee sans creme dish, loved it! Simple to follow instructions." - Xavier Romeo
-        </p>
-         
-    </div>
+    
  
-    
-    <div class="imagecontainer">   
-        <img src="https://images.unsplash.com/photo-1667837424623-89e27216a75e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="An outside table set with teas, pots and delicious treats." title="Image has white autumn hords, a bouquet in a wicker basket, and white candles displayed for a yummy meal."> </img>
-    </div>
+       
+ 
 </body>
     
 

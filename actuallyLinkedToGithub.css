@@ -6,7 +6,7 @@ myWebsiteStyleSheet.css
     display:flex;
     width: .25vw;
     height: .25vh;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap:wrap;
     float:left;
   
@@ -14,16 +14,16 @@ myWebsiteStyleSheet.css
     text-align:center;
     
 
-   
-
 }
 
 .imagecontainer{
   display:flex;
-  justify-content: stretch;
+  flex-direction: row;
+  justify-content: center;
   float: clear;
   width: .25vw;
   height: .25vh;
+  overflow: hidden;
   
 }
 
@@ -61,44 +61,55 @@ ul {
   }
 
 
-
-
-h1{
+  h1{
     color: navy;
     text-align: center;
     padding-left:25%;
     padding-right:25%;
-    padding-top: 10px%;
-    padding-bottom: 10px%;
-    font-size: 30;
-    font-family: lucinda;
-}
-
-h2{
+    padding-top: 10px;
+    font-size: 70px;
+    
+    }
+    h2{
     color: olive;
-    font-size: 26px;
+    font-size: 50px;
     font-family: sans-serif;
-}
-
-h3{
-    color:burlywood;
-    font-size: 24px;
+    }
+    h3{
+    color:olive;
+    font-size: 40px;
     font-family: sans-serif;
-}
-
-h4{
-    color: burlywood;
-    font-size: 22px;
-    font-family: sans-serif;
-}
-
-p1 {
+    }
+    h4{
     color: olive;
+    font-size: 30px;
+    font-family: sans-serif;
+    }
+    h5 {
+    color: olive;
+    font-size: 24x;
+    font-family: "Europa", san-serif;
+    }
+    h6{ 
+    color:olive;
+    font-size: 20x;
+    font-family: sans-serif;
+    }
+    p1 {
+    color: black;
+    font-size: 18px;
+    font-family: sans-serif;
+    }
+    p2 {
+    color: olive;
+    font-size: 16px;
+    }
+    p3 {
+    color: black;
     font-size: 14px;
-    font-family: sans-serif;
-}
-
-p2 {
-    color: olive;
+    }
+    p4{
+    color: black;
     font-size: 10px;
-}
+    }
+    
